@@ -78,9 +78,9 @@ Update your `account-id` in topic ARN before running the script.
 
 ```bash
 chmod +x test-publish.sh
-./test-publish.sh email
-./test-publish.sh sms
-./test-publish.sh push
+./test-publish.sh  # Sends all three notification
+./test-publish.sh email sms # Sends notification through email & sms
+./test-publish.sh push # Sends push notification
 ```
 
 This script will:
