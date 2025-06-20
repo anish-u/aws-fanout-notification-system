@@ -74,6 +74,8 @@ I have created a simple Bash script to test the SNS → SQS → Lambda fan-out a
 
 You can find it in the project root as `test-publish.sh`.
 
+Update your `account-id` in topic ARN before running the script.
+
 ```bash
 chmod +x test-publish.sh
 ./test-publish.sh email
